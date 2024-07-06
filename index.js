@@ -4,7 +4,7 @@ const cors = require('cors');
 const app =express();
 const todoModel = require('./model/model.js');
 app.use(cors({
-    origin:["http://localhost:5173","https://todo-app-pied-sigma.vercel.app/"],
+    origin:["http://localhost:5173","https://todo-app-pied-sigma.vercel.app"],
     methods:["POST","GET","PUT","DELETE"],
     credentials:true
 }));
